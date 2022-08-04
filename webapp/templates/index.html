@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Inserir dados do usuário</h1>
+    <h3>{{ msg }}</h3>
+    <form action="inserir" method="POST">
+      <label for="cpf">CPF</label>
+      <input type="text" id="cpf" name="cpf" placeholder="CFP" />
+      <label for="cpf">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Nome" />
+      <label for="cpf">Sobrenome</label>
+      <input
+        type="text"
+        id="sobrenome"
+        name="sobrenome"
+        placeholder="Sobrenome"
+      />
+      <button type="submit">INSERIR</button>
+    </form>
+  </body>
+</html>
